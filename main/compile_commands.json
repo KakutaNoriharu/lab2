@@ -1,0 +1,25 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I../utility/",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-Wshadow",
+      "-Wstrict-aliasing",
+      "-Wconversion",
+      "-Wunused-result",
+      "-pthread",
+      "-g",
+      "-O2",
+      "-o",
+      "a.out",
+      "main.cpp"
+    ],
+    "directory": "/home/kknori/lab2/IF/main",
+    "file": "/home/kknori/lab2/IF/main/main.cpp",
+    "output": "/home/kknori/lab2/IF/main/a.out"
+  }
+]

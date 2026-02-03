@@ -1,0 +1,30 @@
+malicious_fake_id:0;
+fix_field:0;
+use_diff_lambda:0;
+simulation_loop:50000;
+field_length:(4000.0,4000.0);
+Nxy:(1,0);
+lambda:0.008,0.016;
+Vm:1.0;
+Vw:0.0;
+fVm:1.0;
+Pt:0.5;
+LTA:
+    {(2000.0,2000.0,800.0,800.0)},
+    ;
+#LRA:;
+LfTA:
+    {(2000.0,2000.0,800.0,800.0)},
+    ;
+#LfRA:;
+malicious_appear_time:5000;
+malicious_appear_interval:0,1,10,100;
+malicious_appear_num:1,2,3,4,5,10,20;
+malicious_appear_type:1,2; # 0:not appear, 1:normal, 2:around;
+method:1,3,5; # 1:new 3:old 5:receive count
+consider_all_TA:1; # method 4 flag
+distinct_fake:1; # always 1
+route:0;
+attack:1;
+Slp:0;
+start:0;

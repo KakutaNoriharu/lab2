@@ -1,0 +1,19 @@
+malicious_fake_id,0
+fix_field,0
+use_diff_lambda,0
+simulation_loop,40000
+field_length,6000.0 6000.0
+lambda,0.005
+Nxy,12 12
+Vm,1.0
+Vw,0.0
+fVm,1.0
+Pt,0.5
+LTA,2000.0 2000.0
+LRA,800.0 800.0
+LfTA,0.0 0.0
+method,1,3,4,5
+consider_all_TA,0
+distinct_fake,1
+route,0
+attack,1

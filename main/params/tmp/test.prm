@@ -1,0 +1,81 @@
+TPL:
+    (1,2,3),(4,5,6);
+EVENT:
+    {
+        (0,ArrivalEvent,0,0),
+        (2000,ArrivalEvent,1,1),
+        #ArrivalEventManual(int step, int info_id, Node::NODE_TYPE n_type, double s, double sx, double sy, double ex, double ey)
+        (2000,ArrivalEventManual,1,1,1.0,0.0,2000.0,4000.0,2000.0), 
+        (2000,ArrivalEventManual,1,1,1.0,4000.0,2000.0,0.0,2000.0),
+        (2000,ArrivalEventManual,1,1,1.0,2000.0,4000.,2000.0,0.0),
+        (2000,ArrivalEventManual,1,1,1.0,2000.0,0.0,2000.0,4000.0),
+
+        (2020,ArrivalEventManual,1,1,1.0,0.0,2000.0,4000.0,2000.0),
+        (2020,ArrivalEventManual,1,1,1.0,4000.0,2000.0,0.0,2000.0),
+        (2020,ArrivalEventManual,1,1,1.0,2000.0,4000.,2000.0,0.0),
+        (2020,ArrivalEventManual,1,1,1.0,2000.0,0.0,2000.0,4000.0),
+
+        (2040,ArrivalEventManual,1,1,1.0,0.0,2000.0,4000.0,2000.0),
+        (2040,ArrivalEventManual,1,1,1.0,4000.0,2000.0,0.0,2000.0),
+        (2040,ArrivalEventManual,1,1,1.0,2000.0,4000.,2000.0,0.0),
+        (2040,ArrivalEventManual,1,1,1.0,2000.0,0.0,2000.0,4000.0),
+
+        (2060,ArrivalEventManual,1,1,1.0,0.0,2000.0,4000.0,2000.0),
+        (2060,ArrivalEventManual,1,1,1.0,4000.0,2000.0,0.0,2000.0),
+        (2060,ArrivalEventManual,1,1,1.0,2000.0,4000.,2000.0,0.0),
+        (2060,ArrivalEventManual,1,1,1.0,2000.0,0.0,2000.0,4000.0),
+        
+        (2080,ArrivalEventManual,1,1,1.0,0.0,2000.0,4000.0,2000.0), 
+        (2080,ArrivalEventManual,1,1,1.0,4000.0,2000.0,0.0,2000.0),
+        (2080,ArrivalEventManual,1,1,1.0,2000.0,4000.,2000.0,0.0),
+        (2080,ArrivalEventManual,1,1,1.0,2000.0,0.0,2000.0,4000.0),
+        
+        (2100,ArrivalEventManual,1,1,1.0,0.0,2000.0,4000.0,2000.0), 
+        (2100,ArrivalEventManual,1,1,1.0,4000.0,2000.0,0.0,2000.0),
+        (2100,ArrivalEventManual,1,1,1.0,2000.0,4000.,2000.0,0.0),
+        (2100,ArrivalEventManual,1,1,1.0,2000.0,0.0,2000.0,4000.0),
+
+        (2120,ArrivalEventManual,1,1,1.0,0.0,2000.0,4000.0,2000.0), 
+        (2120,ArrivalEventManual,1,1,1.0,4000.0,2000.0,0.0,2000.0),
+        (2120,ArrivalEventManual,1,1,1.0,2000.0,4000.,2000.0,0.0),
+        (2120,ArrivalEventManual,1,1,1.0,2000.0,0.0,2000.0,4000.0),
+
+        (2140,ArrivalEventManual,1,1,1.0,0.0,2000.0,4000.0,2000.0), 
+        (2140,ArrivalEventManual,1,1,1.0,4000.0,2000.0,0.0,2000.0),
+        (2140,ArrivalEventManual,1,1,1.0,2000.0,4000.,2000.0,0.0),
+        (2140,ArrivalEventManual,1,1,1.0,2000.0,0.0,2000.0,4000.0),
+
+        (2160,ArrivalEventManual,1,1,1.0,0.0,2000.0,4000.0,2000.0), 
+        (2160,ArrivalEventManual,1,1,1.0,4000.0,2000.0,0.0,2000.0),
+        (2160,ArrivalEventManual,1,1,1.0,2000.0,4000.,2000.0,0.0),
+        (2160,ArrivalEventManual,1,1,1.0,2000.0,0.0,2000.0,4000.0),
+
+        #(2020,ArrivalEvent,1,1),
+        #(2040,ArrivalEvent,1,1),
+        #(2060,ArrivalEvent,1,1),
+        #(2080,ArrivalEvent,1,1),
+        #(2100,ArrivalEvent,1,1),
+        #(2120,ArrivalEvent,1,1),
+        #(2140,ArrivalEvent,1,1),
+        #(2160,ArrivalEvent,1,1),
+        #(2180,ArrivalEvent,1,1),
+        #(2200,ArrivalEvent,1,1),
+        #(2220,ArrivalEvent,1,1),
+        #(2240,ArrivalEvent,1,1),
+        #(2260,ArrivalEvent,1,1),
+        #(2280,ArrivalEvent,1,1),
+        #(2300,ArrivalEvent,1,1),
+        #(2320,ArrivalEvent,1,1),
+        #(2340,ArrivalEvent,1,1),
+        #(2360,ArrivalEvent,1,1),
+        #(2380,ArrivalEvent,1,1),
+    },
+    {
+        (0,ArrivalEvent,0,0),
+        (2000,ArrivalEvent,1,1),
+        (3001,ArrivalEvent,1,1),
+        (3002,ArrivalEvent,1,1),
+        (3003,ArrivalEvent,1,1),
+        (3004,ArrivalEvent,1,1),
+
+    };

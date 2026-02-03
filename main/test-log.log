@@ -1,0 +1,67 @@
+Lambda_0.01_Vm_1_Vw_0_fVm_1_Slp_0_Cr_20_Pt_0.5_Nx_4_Ny_4_XL_4000_YL_4000_malicious_appear_time_5000_malicious_appear_interval_0_malicious_appear_num_1_malicious_appear_type_1_Method_6_Start_0_Attack_1_malicious_fake_id_0_distinct_fake_1_consider_all_TA_1_fix_field_0_use_diff_lambda_0_simulation_max_loop_50000_TA~2000~2000~800~800~e_RA_fTA~2000~2000~3000~3000~e_fRA_and_{EventList:[[,ArrivalEvent,0,0,0,][,ArrivalEventManual,5000,1,1,1,1580,2000,4000,2000,]]}
+result
+seed     : 78
+params.Method    : 6
+params.Start     : 0
+params.Attack    : 1
+current_time     : 100000
+checker.first_true_receive_time  : 50023
+checker.first_fake_receive_time  : 55027
+checker.last_true_receive_time   : 99991
+checker.last_fake_receive_time   : 62451
+checker.first_true_broadcast_time        : 50000
+checker.first_fake_broadcast_time        : 55027
+checker.last_true_broadcast_time         : 100000
+checker.last_fake_broadcast_time         : 62490
+node_counter.at(0)       : 672
+node_counter.at(1)       : 128
+node_counter.at(2)       : 0
+checker.max_true_node_count      : 484
+checker.max_fake_node_count      : 128
+checker.total_connection         : 2096286
+checker.total_broadcast  : 2554340
+malicious_broadcast_counter      : 1894
+checker.total_node_in_ra         : 0
+total_true_broadcast     : 2260251
+total_fake_broadcast     : 294089
+true_trust_node  : 2711
+fake_trust_node  : 293
+true_broadcast_node      : 2211
+fake_broadcast_node      : 293
+node_erase_state_counter.at(0).size()    : 16120
+node_erase_state_counter.at(1).size()    : 2529
+node_erase_state_counter.at(2).size()    : 108
+
+Lambda_0.01_Vm_1_Vw_0_fVm_1_Slp_0_Cr_20_Pt_0.5_Nx_4_Ny_4_XL_4000_YL_4000_malicious_appear_time_5000_malicious_appear_interval_0_malicious_appear_num_1_malicious_appear_type_1_Method_6_Start_0_Attack_1_malicious_fake_id_0_distinct_fake_1_consider_all_TA_1_fix_field_0_use_diff_lambda_0_simulation_max_loop_50000_TA~2000~2000~800~800~e_RA_fTA~2000~2000~3000~3000~e_fRA_and_{EventList:[[,ArrivalEvent,0,0,0,][,ArrivalEventManual,5000,1,1,1,1580,2000,4000,2000,]]}
+result
+seed     : 78
+params.Method    : 6
+params.Start     : 0
+params.Attack    : 1
+current_time     : 100000
+checker.first_true_receive_time  : 50023
+checker.first_fake_receive_time  : 55027
+checker.last_true_receive_time   : 99991
+checker.last_fake_receive_time   : 56893
+checker.first_true_broadcast_time        : 50000
+checker.first_fake_broadcast_time        : 55027
+checker.last_true_broadcast_time         : 100000
+checker.last_fake_broadcast_time         : 56948
+node_counter.at(0)       : 672
+node_counter.at(1)       : 128
+node_counter.at(2)       : 0
+checker.max_true_node_count      : 409
+checker.max_fake_node_count      : 8
+checker.total_connection         : 1320420
+checker.total_broadcast  : 1589724
+malicious_broadcast_counter      : 1894
+checker.total_node_in_ra         : 0
+total_true_broadcast     : 1588377
+total_fake_broadcast     : 1347
+true_trust_node  : 2274
+fake_trust_node  : 20
+true_broadcast_node      : 1995
+fake_broadcast_node      : 20
+node_erase_state_counter.at(0).size()    : 16609
+node_erase_state_counter.at(1).size()    : 2146
+node_erase_state_counter.at(2).size()    : 2

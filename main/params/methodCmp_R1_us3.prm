@@ -1,0 +1,40 @@
+malicious_fake_id:0;
+fix_field:0;
+use_diff_lambda:0;
+simulation_loop:50000;
+field_length:(4000.0,4000.0);
+use_scheme_3:1;
+Nxy:(1,0);
+lambda:0.01;
+Vm:1.0;
+Vw:0.0;
+fVm:1.0;
+Pt:0.5;
+LTA:
+    {(2000.0,2000.0,300.0,300.0)},
+    {(2000.0,2000.0,600.0,600.0)},
+    {(2000.0,2000.0,900.0,900.0)},
+    ;
+#LRA:;
+LfTA:
+    {(2000.0,2000.0,10.0,10.0)},
+    {(2000.0,2000.0,100.0,100.0)},
+    {(2000.0,2000.0,300.0,300.0)},
+    {(2000.0,2000.0,600.0,600.0)},
+    {(2000.0,2000.0,900.0,900.0)},
+    {(2000.0,2000.0,1300.0,1300.0)},
+    {(2000.0,2000.0,2600.0,2600.0)},
+    {(2000.0,2000.0,3900.0,3900.0)},
+    ;
+#LfRA:;
+malicious_appear_time:5000;
+malicious_appear_interval:0;
+malicious_appear_num:1;
+malicious_appear_type:1; # 0:not appear, 1:normal, 2:around;
+method:-2,-1,1,2,3,32,41,43,45,401,403,405,50,51,500,501,; # 1:new 3:old 5:receive count 7+:receiveV2 4:maliciousMostEffect
+consider_all_TA:1; # method 4 flag 1:normal 2:trust if receive in original TA
+distinct_fake:1; # always 1
+route:0;
+attack:1;
+Slp:0;
+start:0;
