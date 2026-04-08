@@ -184,16 +184,16 @@ int main(/*int argc, char *argv[]*/){
 
 	g_XL=4000.0;
 	g_YL=4000.0;
-	g_Nxy={4,4};
-	g_vTA={{g_XL*0.5,g_YL*0.5,800.0,800.0}};
+	g_Nxy={8,8};
+	g_vTA={{g_XL*0.5,g_YL*0.5,1200.0,1200.0}};
 	g_vRA={};
 	//g_vfTA={{g_XL*0.5,g_YL*0.5,400.0,400.0}};
 	g_vfTA={};
-	g_vfTA={{g_XL*0.5,g_YL*0.5,800.0,800.0}};
+	g_vfTA={{g_XL*0.5,g_YL*0.5,1200.0,1200.0}};
 	g_attack=1;
-	g_method=9;
+	g_method=1;
 	distinct_fake=1;
-	g_Lambda=0.004;
+	g_Lambda=0.006;
 	g_fVm=1.0;
     consider_all_TA=1;
     ArgumentParser arg("Information Floating Simulation ver.2025-11-08+");

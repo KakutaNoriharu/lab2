@@ -859,6 +859,7 @@ void Method::receive_information(int from_id,int to_id,Method *share,double curr
                         }
                     }
                     */
+                    
 
                     if(trust_index.at(received_extend->information->info)==received_extend->information->id){
                         auto rep = received_extend->information->trust_id_set.insert(to_id);
@@ -889,10 +890,10 @@ bool Method::select_broadcast_information(double x,double y,int consider_all_opt
                 broadcast_index.push_back(trust_information_index);
             }
         }else if(consider_all_option==1){// 齟齬のある情報全てのTAについて評価して，ひとつでもTA内にあれば，trustを配信できる
-            printf("w%p\n",trust);
-            printf("e%p\n",trust->information);
-            printf("r%p\n",trust->information->info);
-            printf("\nx%d\n",trust->information->info);
+            //printf("w%p\n",trust);
+            //printf("e%p\n",trust->information);
+            //printf("r%p\n",trust->information->info);
+            //printf("\nx%d\n",trust->information->info);
             for(int information_index : classification.at(trust->information->info)){
                 if(information_index>=0 && informations.at(information_index).information->check_inTA(x,y)){
                     broadcast_index.push_back(trust_information_index);

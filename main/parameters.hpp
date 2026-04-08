@@ -65,7 +65,7 @@ std::vector<std::vector<double>> g_vfRA = {};
 
 double g_TA_START_X,g_TA_START_Y,g_TA_END_X,g_TA_END_Y;
 
-int g_malicious_appear_time=5000; // malicious node appear time
+int g_malicious_appear_time=1000; // malicious node appear time
 int g_malicious_appear_interval=0; // malicious node appear interval
 int g_malicious_appear_num=1; // malicious node appear num
 int g_malicious_appear_type=1; // malicious node appear type, 0:not appear, 1:normal, 2:not defined
