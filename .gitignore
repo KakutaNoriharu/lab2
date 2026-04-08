@@ -21,6 +21,7 @@
 *.out
 *.app
 *.dwo
+*.out
 
 # ===== Generated experiment data (DO NOT TRACK) =====
 main/z_gif/
