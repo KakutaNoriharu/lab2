@@ -279,9 +279,9 @@ public:
     Store<EventDataReceive,EventMapUnit> store; // whole store with sharedGS
 
     Method();
-    ~Method() noexcept = default;
-    Method(const Method& other) = default;
-    Method(Method&& other) noexcept = default;
+    ~Method() noexcept = default; // コピーコンストラクタ
+    Method(const Method& other) = default; // ムーブコンストラクタ
+    Method(Method&& other) noexcept = default; // コピー代入演算子
     Method & operator=(const Method& other) = default;
     void set(int method_param);
     void set_information(FloatingInformation *information,double current_time);
