@@ -29,7 +29,7 @@ void run_simulation(FILE *fp,int simulation_seed,int use_gnuplot_setting,bool us
 	}
 
 	int information_id=0;
-	FloatingInformation true_information(information_id++,0,0);
+	FloatingInformation true_information(information_id++,0,0); // information_idを0番として現在は使用し、以降1,2,3...
 	FloatingInformation fake_information(information_id++,1,1);
 	simulation.set_base_information(&true_information);
 	if(distinct_fake==1){ // 偽装された情報を検出可能とするかどうか
@@ -105,7 +105,7 @@ void run_simulation(FILE *fp,int simulation_seed,int use_gnuplot_setting,bool us
 
 void repeat_simulation(size_t simulation_progress_id,Params *params,EventList *event_list){
 	bool use_progress_bar = false;
-	std::string filename="data/"+simulation_result_file_path+"/sim_"+params->get_parameter_string_filename()+".csv";
+	std::string filename = "data/"+simulation_result_file_path+"/sim_"+params->get_parameter_string_filename()+".csv";
 	int csv_seed_progress=1;
 	if(file_is_exist(filename.c_str())){
 		csv_seed_progress=countCSVRows(filename);

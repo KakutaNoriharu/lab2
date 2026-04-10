@@ -834,7 +834,7 @@ void Method::receive_information(int from_id,int to_id,Method *share,double curr
 
                     int cnt_0=0;
                     int cnt_1=0;
-                    for(EventMapUnit em : event_map){
+                    for(EventMapUnit em : event_map){ // for(const auto& em : event_map)の方が速いかも　0409
                         if(em.send_trust_count.at(0)>0 && em.send_trust_count.at(1)==0){
                             ++cnt_0;
                         }else if(em.send_trust_count.at(0)==0 && em.send_trust_count.at(1)>0){

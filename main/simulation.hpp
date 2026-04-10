@@ -621,7 +621,7 @@ void Simulation::write(FILE* fp){
         checker.last_fake_receive_time=0.0;
     }
 
-    std::vector<double> diff=cal_diff_double_vector(TA_entered_time);
+    std::vector<double> diff = cal_diff_double_vector(TA_entered_time);
     long int total_true_broadcast = 0;
     long int total_fake_broadcast = 0;
     long int true_trust_node = 0;
