@@ -1,7 +1,12 @@
 INFO : main.cpp (180) __main__FileWrapped : LOGGER START
-INFO : simulation.hpp (225) set_information : info:0 cvl:7200.000000
-INFO : simulation.hpp (225) set_information : info:1 cvl:7200.000000
+INFO : simulation.hpp (225) set_information : info:0 cvl:2400.000000
+INFO : simulation.hpp (225) set_information : info:1 cvl:2400.000000
 INFO : simulation_event.hpp (334) call_event :   [EVENT] Time=0(loop=0), Name: ArrivalEvent
-INFO : simulation.hpp (388) optional_appear_with_point : add information node 10745  info id:0 content:0
+INFO : simulation.hpp (388) optional_appear_with_point : add information node 1978  info id:0 content:0
 INFO : simulation_event.hpp (334) call_event :   [EVENT] Time=1000(loop=1000), Name: ArrivalEventManual
-INFO : simulation.hpp (388) optional_appear_with_point : add information node 10954  info id:1 content:0
+INFO : simulation.hpp (388) optional_appear_with_point : add information node 2008  info id:1 content:0
+INFO : method3.hpp (465) malicious_disguise : add fake ed 12 : 50194.000000 1978 575 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 13 : 50195.000000 575 1978 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 14 : 50329.000000 575 986 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 15 : 50520.000000 1978 886 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 16 : 50654.000000 986 886 1
