@@ -3,6 +3,8 @@ source .venv/bin/activate
 
 # 20260508
 
+ r.csv を再生成したい場合は、main.cpp:100 のコメントを外し、printf を fopen("r.csv","w") 経由の fprintf に変えるだけで対応できます。
+
 パラメータファイルモード (-p 指定あり)                                                                                                 
                                                                                                                                          
   repeat_simulation() が自動的に seed をループします。                                                                                   

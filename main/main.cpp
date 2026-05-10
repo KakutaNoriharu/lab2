@@ -95,10 +95,13 @@ void run_simulation(FILE *fp,int simulation_seed,int use_gnuplot_setting,bool us
 		}
 	}
 	if(1){
+		// FILE *r_fp = fopen("r.csv", "w");
 		for(size_t i=0,size=simulation.GS.size;i<size;++i){
 			EventDataReceive &ed = simulation.GS.events.at(i); 
 			//printf("%lu,%f,%lu,%lu,%d\n",i,ed.timestamp,ed.from_id,ed.to_id,ed.information_id);
+			// fprintf(r_fp,"%lu,%f,%lu,%lu,%d\n",i,ed.timestamp,ed.from_id,ed.to_id,ed.information_id);
 		}
+		// fclose(r_fp);
 	}
 	simulation.close();
 }
