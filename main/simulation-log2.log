@@ -1,1 +1,22 @@
-INFO : main.cpp (180) __main__FileWrapped : LOGGER START
+INFO : main.cpp (183) __main__FileWrapped : LOGGER START
+INFO : simulation.hpp (225) set_information : info:0 cvl:2400.000000
+INFO : simulation.hpp (225) set_information : info:1 cvl:2400.000000
+INFO : simulation_event.hpp (334) call_event :   [EVENT] Time=0(loop=0), Name: ArrivalEvent
+INFO : simulation.hpp (388) optional_appear_with_point : add information node 1953  info id:0 content:0
+INFO : simulation_event.hpp (334) call_event :   [EVENT] Time=1000(loop=1000), Name: ArrivalEventManual
+INFO : simulation.hpp (388) optional_appear_with_point : add information node 2000  info id:1 content:0
+INFO : method3.hpp (465) malicious_disguise : add fake ed 18 : 50000.000000 1953 1180 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 19 : 50001.000000 1180 1953 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 20 : 50454.000000 1180 1946 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 21 : 50454.000000 1953 1946 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 22 : 50455.000000 1946 1180 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 23 : 50455.000000 1946 1953 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 24 : 50547.000000 1180 1075 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 25 : 50548.000000 1075 1953 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 26 : 50548.000000 1953 1075 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 27 : 50757.000000 1946 1182 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 28 : 50757.000000 1182 1946 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 29 : 50851.000000 1182 1075 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 30 : 50896.000000 1946 313 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 31 : 50990.000000 1075 313 1
+INFO : method3.hpp (465) malicious_disguise : add fake ed 32 : 50990.000000 313 1075 1

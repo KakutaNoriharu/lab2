@@ -7,12 +7,12 @@ source .venv/bin/activate
 
 パラメータファイルモード (-p 指定あり)                                                                                                 
                                                                                                                                          
-  repeat_simulation() が自動的に seed をループします。                                                                                   
+repeat_simulation() が自動的に seed をループします。                                                                                   
                                                                                                                                          
-  // main.cpp:118                                       
-  for(int i=csv_seed_progress; i<=MAX_SEED; ++i){                                                                                        
-      run_simulation(fp, i, ...);  // seed = 1, 2, ..., 10
-  }                                                                                                                                      
+// main.cpp:118                                       
+for(int i=csv_seed_progress; i<=MAX_SEED; ++i){                                                                                        
+  run_simulation(fp, i, ...);  // seed = 1, 2, ..., 10
+}                                                                                                                                      
    
   - MAX_SEED = 10（固定、main.cpp:18）                                                                                                   
   - 再開機能あり: 出力CSVの行数を確認し (csv_seed_progress)、途中で止まった場合は続きから再開する
