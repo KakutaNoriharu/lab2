@@ -653,7 +653,7 @@ void Method::adopt_method(ExtendInformation *received_information,int from_id,in
 
     }else if(method==9){ // 蓄積による方法　trustを未指定
         int c=3;
-        for(int a : *received_information->information->IF_join_nodes){
+        for(const int& a : *received_information->information->IF_join_nodes){
             if(a==from_id){
                 c=c-1;
                 if(c==0)break;
@@ -834,7 +834,7 @@ void Method::receive_information(int from_id,int to_id,Method *share,double curr
 
                     int cnt_0=0;
                     int cnt_1=0;
-                    for(EventMapUnit em : event_map){ // for(const auto& em : event_map)の方が速いかも　0409
+                    for(const EventMapUnit& em : event_map){ // for(const auto& em : event_map)の方が速いかも　0409
                         if(em.send_trust_count.at(0)>0 && em.send_trust_count.at(1)==0){
                             ++cnt_0;
                         }else if(em.send_trust_count.at(0)==0 && em.send_trust_count.at(1)>0){
